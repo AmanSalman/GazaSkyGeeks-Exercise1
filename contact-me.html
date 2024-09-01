@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+</head>
+<body>
+  <!-- Main content of the Contact page -->
+  <main>
+    <!-- Contact section with a form for users to get in touch -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <!-- Input for visitor's name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <!-- Input for visitor's email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <!-- Text area for the visitor's message -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="30" required></textarea>
+        
+        <!-- Submit button for the form -->
+        <input type="submit" value="Submit">
+      </form> 
+    </section>
+  </main>
+</body>
+</html>
